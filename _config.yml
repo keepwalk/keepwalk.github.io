@@ -18,7 +18,7 @@ url: "https://knightyun.github.io" # 网站地址
 github_repo: "https://github.com/knightyun/knightyun.github.io"
 github_profile: "https://github.com/knightyun" # GitHub 个人主页
 user: "尚丘" # 用于侧栏展示的名字
-user_email: " " # 侧栏展示的联系方式
+user_email: "a@b.c" # 侧栏展示的联系方式
 paginate: 5 # 主页展示的博客文章数量
 nick_name: "尚丘" # 昵称
 english_name: "尚丘"
@@ -47,4 +47,4 @@ sass:
 lang: zh_CN
 future: true
 permalink: /:year/:month/:day/:title
-theme: jekyll-theme-slate
+theme: jekyll-theme-minimal
