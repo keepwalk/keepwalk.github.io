@@ -12,8 +12,8 @@
 # 比如代码：<h1>{{ site.title }}</h1> 
 # 将会展示为设定的值，也可以自行添加其他自定义全局变量。
 title: 尚丘的博客 # 网站的标题
-description: > # 网站的描述，可能会出现在搜索引擎展示结果中
-  基于 jekyll 的 Github Pages 个人博客网站，技术的学习、总结、分享与提升
+# description: > # 网站的描述，可能会出现在搜索引擎展示结果中
+#  基于 jekyll 的 Github Pages 个人博客网站，技术的学习、总结、分享与提升
 url: "https://keepwalk.github.io" # 网站地址
 github_repo: "https://github.com/keepwalk/keepwalk.github.io"
 github_profile: "https://github.com/keepwalk" # GitHub 个人主页
