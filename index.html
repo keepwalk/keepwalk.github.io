@@ -6,7 +6,7 @@ css: ["index.css"]
     {% for post in paginator.posts %}
     <div class="col s12">
         <div class="card hoverable" style="color:#fff">
-            <div class="card-content" style="background-color:#A7A7A7">
+            <div class="card-content" style="background-color:#4D535E">
                 <span id="post-title" class="card-title">{{post.title}}</span>
                 <p id="post-date">
                     <i class="material-icons">date_range</i>
@@ -14,9 +14,9 @@ css: ["index.css"]
                 </p>
                 <p id="post-content">{{post.excerpt | remove: '<p>' | remove: '</p>'}}</p>
             </div>
-            <div class="card-action" style="background-color:#7C819B">
+            <div class="card-action" style="background-color:#4A4E55">
                 <a href="{{post.url | prepend: site.baseurl}}">
-                    开始阅读 Start to Read
+                    开始阅读(Start to Read)
                 </a>
             </div>
         </div>
