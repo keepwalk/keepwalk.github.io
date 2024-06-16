@@ -1,0 +1,50 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# 以下为自定义的全局变量，可以在 HTML 文件中引用，
+# 比如代码：<h1>{{ site.title }}</h1> 
+# 将会展示为设定的值，也可以自行添加其他自定义全局变量。
+title: 瑝琦的博客 # 网站的标题
+description: > # 网站的描述，可能会出现在搜索引擎展示结果中
+  基于 jekyll 的 Github Pages 个人博客网站，技术的学习、总结、分享与提升
+url: "https://knightyun.github.io" # 网站地址
+github_repo: "https://github.com/knightyun/knightyun.github.io"
+github_profile: "https://github.com/knightyun" # GitHub 个人主页
+user: "瑝琦" # 用于侧栏展示的名字
+user_email: "2386209384@qq.com" # 侧栏展示的联系方式
+paginate: 5 # 主页展示的博客文章数量
+nick_name: "瑝琦" # 昵称
+english_name: "Knight"
+# valine 评论插件配置
+valine:
+  leancloud_appid: "4XY3DoTJmibNe3rHeAKOxqzl-gzGzoHsz"
+  leancloud_appkey: "vjothQHALvgTQF9GrSgj577a"
+
+# jekyll 相关配置
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-admin
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - COPYING
+  - vendor
+  - minify.cmd
+sass:
+  style: compressed
+lang: zh_CN
+future: true
+permalink: /:year/:month/:day/:title
+theme: jekyll-theme-slate
