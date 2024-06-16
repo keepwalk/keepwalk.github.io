@@ -21,7 +21,7 @@ user: "尚丘" # 用于侧栏展示的名字
 user_email: "" # 侧栏展示的联系方式  a@b.c
 paginate: 4 # 主页展示的博客文章数量
 nick_name: "尚丘·N31WeLt" # 昵称
-english_name: "N31WeLt"
+english_name: ""
 # valine 评论插件配置
 valine:
   leancloud_appid: "4XY3DoTJmibNe3rHeAKOxqzl-gzGzoHsz"
