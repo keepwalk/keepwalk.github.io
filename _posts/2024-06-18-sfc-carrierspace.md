@@ -5,8 +5,7 @@ categories: ｢载体空间｣
 tags: 科幻小说
 excerpt: 关于 JavaScript 中数组方法的区分
 ---
- 科幻小说｢载体空间｣- N31WeLt    $(document).ready(function () { $.localScroll();}); body { color: #302d26; font-family: 'Microsoft YaHei', SimSun, Meiryo, 'MS PGothic', 'Soleil', Helvetica, Arial, sans-serif; font-size: 13px; line-height: 1.4em; background-color: #a09c93; } a, a:link, a:visited { color: #840000; font-weight: normal; text-decoration: none } a:hover { text-decoration: underline; } a.gototop { clear: both; float: right; display:block; margin-top: 10px; padding: 0 15px 10px; font-size: 10px; color: #000; font-weight: 700;background: url(images/gototop.png) no-repeat bottom center } p { margin: 0 0 10px 0; padding: 0; } img { border: none; } em { color: #fff } h1, h2, h3, h4, h5, h6 { color: #000000; font-weight: normal; } h1 { font-size: 36px; margin: 0 0 30px; padding: 5px 0 } h2 { font-size: 24px; margin: 0 0 25px; padding: 5px 0 } h3 { font-size: 20px; margin: 0 0 20px; padding: 0; } h4 { font-size: 16px; margin: 0 0 15px; padding: 0; text-shadow: 1px 1px 15px #777777;} h5 { font-size: 15px; margin: 0 0 10px; padding: 0; text-shadow: 1px 1px 13px #777777;} h6 { font-size: 12px; margin: 0 0 5px; padding: 0; font-weight: 700 } .vr { /\*<!--seperate sidebar-->\*/ width:6px; opacity: 0.0; display:grid; float: left; box-shadow: 2px 0px 1px 1px grey; background-color:#636068; position:absolute; top:0; bottom:0; left:80px; /\*<!--page left padding-->\*/ border-left: 1px dotted #777777; border-right: 2px dotted #777777; height: 100%; box-shadow: 1px 1px 4px #555555; min-height: 300% /\*<!--page height padding-->\*/ } .cleaner { clear: both } .h10 { height: 10px } .h20 { height: 20px } .h30 { height: 30px } .h40 { height: 40px } .h50 { height: 50px } .h00 { height: 1px } .divider { margin-bottom: 40px; padding-bottom: 20px; background: url(images/tooplate\_divider.png) repeat-x bottom } .float\_l { float: left } .float\_r { float: right } .col\_12 { width: 420px } .main\_box { min-height: 300px; padding: 7px 0; margin-bottom: 30px; background: url(images/divider.png) repeat-x bottom } .img\_float\_l { float: left; margin: 3px 30px 5px 0 } .img\_float\_r { float: right; margin: 3px 0 5px 30px } .img\_frame { border: 1px solid #827863; background: #a8a08e; padding: 3px; margin-bottom: 10px } /\* wild animal \*/ .tooplate\_list { margin: 10px 0 10px 30px; padding: 0; list-style: decimal-leading-zero } .tooplate\_list li { color:#302d26; margin: 0 0 10px 0; padding: 0 5px 0 0; background: url(images/tooplate\_list.png) no-repeat scroll 0 5px } .tooplate\_list li a { color: #302d26; font-weight: normal } .tooplate\_list li a:hover { color: #302d26 } #tooplate\_wrapper { width: 1060px; /\* 960 main page width \*/ padding: 0 10px; margin: 1 auto; /\* 0 \*/ } #tooplate\_main { width: 960px; /\* 960 context width \*/ padding: 60px 0px 60px 40px; float: right; } #tooplate\_main h2 { font-size: 24px; padding-bottom: 30px; margin-bottom: 30px; background: url(images/header.png) repeat-x bottom }
-
+ 科幻小说｢载体空间｣- N31WeLt    
     科幻小说:  ｢载体空间｣
 
 * * *
@@ -73,7 +72,7 @@ _小靴子 :_ 秦翀的宠物,九命量子猫
 
 #### ｢载体空间｣ 目录 :_〘 点击链接 阅读相关章节 〙_
 
-##### [第一章 事发春西路](carrier_space_chapter_1.html) [第二章 限期破案](carrier_space_chapter_2.html)  
+[第一章 事发春西路](carrier_space_chapter_1.html) [第二章 限期破案](carrier_space_chapter_2.html)  
 [第三章 大学城](carrier_space_chapter_3.html) [第四章 三号探测器](carrier_space_chapter_4.html)  
 [第五章 缓存文件](carrier_space_chapter_5.html) [第六章 素茹会](carrier_space_chapter_6.html)  
 [第七章 乙宸计划](carrier_space_chapter_7.html) [第八章 科学讲座](carrier_space_chapter_8.html)  
@@ -132,5 +131,3 @@ _小靴子 :_ 秦翀的宠物,九命量子猫
 [第一百一十三章 新秩序](carrier_space_chapter_113.html)  
 
 [Go To Top](#top)
-
-(function(){ function e(){ function o(){ //a.style.width = "320px",a.style.height = "180px"; return e.parentNode.insertBefore(a,e),e.parentNode.removeChild(e),a.className = "img\_frame",!1 } function l(){ //e.style.width = "320px",e.style.height = "180px"; return a.parentNode.insertBefore(e,a),a.parentNode.removeChild(a),e.className = "img\_frame",!1 } var e=this,t="click to play",a=document.createElement("canvas"),i=a.getContext("2d"),r=a.width=e.width,n=a.height=e.height;i.drawImage(e,-160,-90),i.font="15px arial",i.strokeStyle="black",i.lineWidth=2,i.strokeText(t,r/2-52,n/2+8),i.fillStyle="gold",i.fillText(t,r/2-52,n/2+8),a.onclick=l,e.onclick=o,e.setAttribute("data-whak",!0),o() } var t=document.body,a=t.getElementsByTagName("img");\[\].forEach.call(a,function(t){var a=t.src.split("?")\[0\],i=a.substr(-3);"gif"===i.toLowerCase()&&t.getAttribute("data-whak")!==!0&&(t.onload=e.bind(t))}) })();
