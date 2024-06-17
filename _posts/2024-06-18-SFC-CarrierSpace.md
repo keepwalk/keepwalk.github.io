@@ -5,11 +5,9 @@ categories: ｢载体空间｣
 tags: 科幻小说
 excerpt: 关于 JavaScript
 ---
-###### ｢载体空间｣ 链接: *点击以下链接阅读相关章节*
+｢载体空间｣ 链接: *点击以下链接阅读相关章节*
 <a style="color:purple;" href="carrier_space_chapter_0.html" target="_blank"> <b>长篇科幻小说 ｢载体空间｣ 目录&各章链接</b> </a>
 <hr>
-<br>
-<br>
 <br>
 __｢载体空间｣故事梗概：__ *海外华裔学生学者在M大学创建了一个名为素茹会的科学组织，秘密招募单程志愿者，执行前往行星N31的星际殖民任务，在地球之外为人类文明建立一个备份。*
 <br>
