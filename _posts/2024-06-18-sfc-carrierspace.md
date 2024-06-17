@@ -5,23 +5,9 @@ categories: ｢载体空间｣
 tags: 科幻小说
 excerpt: 关于 JavaScript 中数组方法的区分
 ---
- 科幻小说｢载体空间｣- N31WeLt    
-    科幻小说:  ｢载体空间｣
-
-* * *
-
-
+科幻小说｢载体空间｣ - 作者：尚丘（N31WeLt）    
 --------------------------
-
-![jpg](https://s1.ax1x.com/2020/10/20/0zWqrd.jpg) ![jpg](https://s1.ax1x.com/2020/10/20/0zWLqA.jpg) ![jpg](https://s1.ax1x.com/2020/10/20/0zWvIP.jpg)
-
-｢载体空间｣故事梗概：M大学一个名为素茹会的科学组织，秘密从地球招募单程志愿者，前往行星N31执行星际殖民任务，在地球之外，为人类文明建立一个备份。
-
-  
-  
-  
-
-  
+**`
 ｢载体空间｣ 楔子 :  
   
 两百四十年前,一个炎热的夜晚,  
@@ -50,8 +36,13 @@ excerpt: 关于 JavaScript 中数组方法的区分
 如今,已没有人愿意也没有人知道,如何放缓这头奔命巨兽的步伐｡  
 我们一起闭上眼睛,享受着､忍受着生活,等待着那一天到来｡
 
-  
-  
+![jpg](https://s1.ax1x.com/2020/10/20/0zWqrd.jpg) 
+![jpg](https://s1.ax1x.com/2020/10/20/0zWLqA.jpg) 
+![jpg](https://s1.ax1x.com/2020/10/20/0zWvIP.jpg)
+
+
+｢载体空间｣故事梗概：M大学一个名为素茹会的科学组织，秘密从地球招募单程志愿者，前往行星N31执行星际殖民任务，在地球之外，为人类文明建立一个备份。
+
 
 #### 小说主要人物 :
 
@@ -73,117 +64,117 @@ _小靴子 :_ 秦翀的宠物,九命量子猫
 #### ｢载体空间｣ 目录 :_〘 点击链接 阅读相关章节 〙_
 
 <a style="color:#333333;" href="carrier_space_chapter_1.html" target="_blank">第一章    事发春西路<span style="padding-left:86px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_2.html" target="_blank">第二章    限期破案</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_2.html" target="_blank">第二章    限期破案</a>
 <a style="color:#333333;" href="carrier_space_chapter_3.html" target="_blank">第三章    大学城<span style="padding-left:114px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_4.html" target="_blank">第四章    三号探测器</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_4.html" target="_blank">第四章    三号探测器</a>
 <a style="color:#333333;" href="carrier_space_chapter_5.html" target="_blank">第五章    缓存文件<span style="padding-left:101px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_6.html" target="_blank">第六章    素茹会</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_6.html" target="_blank">第六章    素茹会</a>
 <a style="color:#333333;" href="carrier_space_chapter_7.html" target="_blank">第七章    乙宸计划<span style="padding-left:101px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_8.html" target="_blank">第八章    科学讲座</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_8.html" target="_blank">第八章    科学讲座</a>
 <a style="color:#333333;" href="carrier_space_chapter_9.html" target="_blank">第九章    小靴子<span style="padding-left:115px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_10.html" target="_blank">第十章    载体空间</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_10.html" target="_blank">第十章    载体空间</a>
 <a style="color:#333333;" href="carrier_space_chapter_11.html" target="_blank">第十一章    主推进器<span style="padding-left:88px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_12.html" target="_blank">第十二章    B计划</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_12.html" target="_blank">第十二章    B计划</a>
 <a style="color:#333333;" href="carrier_space_chapter_13.html" target="_blank">第十三章    警犬Doka<span style="padding-left:84px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_14.html" target="_blank">第十四章    坏消息</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_14.html" target="_blank">第十四章    坏消息</a>
 <a style="color:#333333;" href="carrier_space_chapter_15.html" target="_blank">第十五章    Ks效应<span style="padding-left:101px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_16.html" target="_blank">第十六章    西装男</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_16.html" target="_blank">第十六章    西装男</a>
 <a style="color:#333333;" href="carrier_space_chapter_17.html" target="_blank">第十七章    身陷囹圄<span style="padding-left:89px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_18.html" target="_blank">第十八章    文明备份</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_18.html" target="_blank">第十八章    文明备份</a>
 <a style="color:#333333;" href="carrier_space_chapter_19.html" target="_blank">第十九章    秦工程师<span style="padding-left:89px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_20.html" target="_blank">第二十章    亡命之旅</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_20.html" target="_blank">第二十章    亡命之旅</a>
 <a style="color:#333333;" href="carrier_space_chapter_21.html" target="_blank">第二十一章    功率异常<span style="padding-left:76px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_22.html" target="_blank">第二十二章    蓝川公司</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_22.html" target="_blank">第二十二章    蓝川公司</a>
 <a style="color:#333333;" href="carrier_space_chapter_23.html" target="_blank">第二十三章    命悬一线<span style="padding-left:76px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_24.html" target="_blank">第二十四章    剔蚆蛒</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_24.html" target="_blank">第二十四章    剔蚆蛒</a>
 <a style="color:#333333;" href="carrier_space_chapter_25.html" target="_blank">第二十五章    孤寂行星<span style="padding-left:76px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_26.html" target="_blank">第二十六章    黑色石头</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_26.html" target="_blank">第二十六章    黑色石头</a>
 <a style="color:#333333;" href="carrier_space_chapter_27.html" target="_blank">第二十七章    矿藏探测器<span style="padding-left:62px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_28.html" target="_blank">第二十八章    农耕生活</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_28.html" target="_blank">第二十八章    农耕生活</a>
 <a style="color:#333333;" href="carrier_space_chapter_29.html" target="_blank">第二十九章    第二次理事会<span style="padding-left:48px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_30.html" target="_blank">第三十章    星河湾</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_30.html" target="_blank">第三十章    星河湾</a>
 <a style="color:#333333;" href="carrier_space_chapter_31.html" target="_blank">第三十一章    小行星带<span style="padding-left:76px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_32.html" target="_blank">第三十二章    古岩洞</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_32.html" target="_blank">第三十二章    古岩洞</a>
 <a style="color:#333333;" href="carrier_space_chapter_33.html" target="_blank">第三十三章    地下设施<span style="padding-left:76px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_34.html" target="_blank">第三十四章    意外发现</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_34.html" target="_blank">第三十四章    意外发现</a>
 <a style="color:#333333;" href="carrier_space_chapter_35.html" target="_blank">第三十五章    褐色球体<span style="padding-left:76px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_36.html" target="_blank">第三十六章    灰金属飞盘</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_36.html" target="_blank">第三十六章    灰金属飞盘</a>
 <a style="color:#333333;" href="carrier_space_chapter_37.html" target="_blank">第三十七章    循规蹈矩<span style="padding-left:76px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_38.html" target="_blank">第三十八章    庆祝晚宴</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_38.html" target="_blank">第三十八章    庆祝晚宴</a>
 <a style="color:#333333;" href="carrier_space_chapter_39.html" target="_blank">第三十九章    外星母船<span style="padding-left:76px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_40.html" target="_blank">第四十章    船长睿銝</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_40.html" target="_blank">第四十章    船长睿銝</a>
 <a style="color:#333333;" href="carrier_space_chapter_41.html" target="_blank">第四十一章    精细结构常数炸弹<span style="padding-left:20px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_42.html" target="_blank">第四十二章    地核加热器</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_42.html" target="_blank">第四十二章    地核加热器</a>
 <a style="color:#333333;" href="carrier_space_chapter_43.html" target="_blank">第四十三章    观察者文明<span style="padding-left:63px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_44.html" target="_blank">第四十四章    银河宜居带</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_44.html" target="_blank">第四十四章    银河宜居带</a>
 <a style="color:#333333;" href="carrier_space_chapter_45.html" target="_blank">第四十五章    昂希文明一(外传)<span style="padding-left:26px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_46.html" target="_blank">第四十六章    昂希文明二(外传)</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_46.html" target="_blank">第四十六章    昂希文明二(外传)</a>
 <a style="color:#333333;" href="carrier_space_chapter_47.html" target="_blank">第四十七章    昂希文明三(外传)<span style="padding-left:26px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_48.html" target="_blank">第四十八章    昂希文明四(外传)</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_48.html" target="_blank">第四十八章    昂希文明四(外传)</a>
 <a style="color:#333333;" href="carrier_space_chapter_49.html" target="_blank">第四十九章    处处乱象<span style="padding-left:79px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_50.html" target="_blank">第五十章    恍若梦中</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_50.html" target="_blank">第五十章    恍若梦中</a>
 <a style="color:#333333;" href="carrier_space_chapter_51.html" target="_blank">第五十一章    荣归派<span style="padding-left:93px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_52.html" target="_blank">第五十二章    旧友重逢</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_52.html" target="_blank">第五十二章    旧友重逢</a>
 <a style="color:#333333;" href="carrier_space_chapter_53.html" target="_blank">第五十三章    宁静花园<span style="padding-left:79px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_54.html" target="_blank">第五十四章    武装叛乱</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_54.html" target="_blank">第五十四章    武装叛乱</a>
 <a style="color:#333333;" href="carrier_space_chapter_55.html" target="_blank">第五十五章    代养政策<span style="padding-left:79px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_56.html" target="_blank">第五十六章    文殊II核电站</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_56.html" target="_blank">第五十六章    文殊II核电站</a>
 <a style="color:#333333;" href="carrier_space_chapter_57.html" target="_blank">第五十七章    孤注一掷<span style="padding-left:79px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_58.html" target="_blank">第五十八章    灾难</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_58.html" target="_blank">第五十八章    灾难</a>
 <a style="color:#333333;" href="carrier_space_chapter_59.html" target="_blank">第五十九章    凤凰II增殖堆<span style="padding-left:58px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_60.html" target="_blank">第六十章    锎战争</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_60.html" target="_blank">第六十章    锎战争</a>
 <a style="color:#333333;" href="carrier_space_chapter_61.html" target="_blank">第六十一章    投诚阴谋<span style="padding-left:80px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_62.html" target="_blank">第六十二章    铁矿山</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_62.html" target="_blank">第六十二章    铁矿山</a>
 <a style="color:#333333;" href="carrier_space_chapter_63.html" target="_blank">第六十三章    女首领<span style="padding-left:95px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_64.html" target="_blank">第六十四章    胶团鱼</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_64.html" target="_blank">第六十四章    胶团鱼</a>
 <a style="color:#333333;" href="carrier_space_chapter_65.html" target="_blank">第六十五章    山东猫<span style="padding-left:95px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_66.html" target="_blank">第六十六章    采集协议</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_66.html" target="_blank">第六十六章    采集协议</a>
 <a style="color:#333333;" href="carrier_space_chapter_67.html" target="_blank">第六十七章    战后世界<span style="padding-left:82px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_68.html" target="_blank">第六十八章    老画师</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_68.html" target="_blank">第六十八章    老画师</a>
 <a style="color:#333333;" href="carrier_space_chapter_69.html" target="_blank">第六十九章    善后不利<span style="padding-left:82px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_70.html" target="_blank">第七十章    愁云惨淡</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_70.html" target="_blank">第七十章    愁云惨淡</a>
 <a style="color:#333333;" href="carrier_space_chapter_71.html" target="_blank">第七十一章    营救行动<span style="padding-left:82px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_72.html" target="_blank">第七十二章    拼死一搏</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_72.html" target="_blank">第七十二章    拼死一搏</a>
 <a style="color:#333333;" href="carrier_space_chapter_73.html" target="_blank">第七十三章    永失挚友<span style="padding-left:82px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_74.html" target="_blank">第七十四章    求救信号</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_74.html" target="_blank">第七十四章    求救信号</a>
 <a style="color:#333333;" href="carrier_space_chapter_75.html" target="_blank">第七十五章    仿制品<span style="padding-left:96px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_76.html" target="_blank">第七十六章    隔离检查</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_76.html" target="_blank">第七十六章    隔离检查</a>
 <a style="color:#333333;" href="carrier_space_chapter_77.html" target="_blank">第七十七章    拯救计划<span style="padding-left:82px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_78.html" target="_blank">第七十八章    曲线拟合</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_78.html" target="_blank">第七十八章    曲线拟合</a>
 <a style="color:#333333;" href="carrier_space_chapter_79.html" target="_blank">第七十九章   逆矩阵计划<span style="padding-left:68px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_80.html" target="_blank">第八十章    先遣队</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_80.html" target="_blank">第八十章    先遣队</a>
 <a style="color:#333333;" href="carrier_space_chapter_81.html" target="_blank">第八十一章    打手枪<span style="padding-left:96px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_82.html" target="_blank">第八十二章    权衡</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_82.html" target="_blank">第八十二章    权衡</a>
 <a style="color:#333333;" href="carrier_space_chapter_83.html" target="_blank">第八十三章    三足鼎立<span style="padding-left:82px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_84.html" target="_blank">第八十四章    坠落飞船</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_84.html" target="_blank">第八十四章    坠落飞船</a>
 <a style="color:#333333;" href="carrier_space_chapter_85.html" target="_blank">第八十五章    温法裁判仪<span style="padding-left:68px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_86.html" target="_blank">第八十六章    超级星光材料</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_86.html" target="_blank">第八十六章    超级星光材料</a>
 <a style="color:#333333;" href="carrier_space_chapter_87.html" target="_blank">第八十七章    聚变实验堆<span style="padding-left:68px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_88.html" target="_blank">第八十八章    枫林计划</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_88.html" target="_blank">第八十八章    枫林计划</a>
 <a style="color:#333333;" href="carrier_space_chapter_89.html" target="_blank">第八十九章    四号信息注入器<span style="padding-left:38px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_90.html" target="_blank">第九十章    电子邮件</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_90.html" target="_blank">第九十章    电子邮件</a>
 <a style="color:#333333;" href="carrier_space_chapter_91.html" target="_blank">第九十一章    项目合作<span style="padding-left:82px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_92.html" target="_blank">第九十二章    防患于未然</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_92.html" target="_blank">第九十二章    防患于未然</a>
 <a style="color:#333333;" href="carrier_space_chapter_93.html" target="_blank">第九十三章    奠基典礼<span style="padding-left:82px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_94.html" target="_blank">第九十四章    交易</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_94.html" target="_blank">第九十四章    交易</a>
 <a style="color:#333333;" href="carrier_space_chapter_95.html" target="_blank">第九十五章    意外事故<span style="padding-left:82px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_96.html" target="_blank">第九十六章    背光面</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_96.html" target="_blank">第九十六章    背光面</a>
 <a style="color:#333333;" href="carrier_space_chapter_97.html" target="_blank">第九十七章    铁矿十三<span style="padding-left:82px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_98.html" target="_blank">第九十八章    冰原历险</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_98.html" target="_blank">第九十八章    冰原历险</a>
 <a style="color:#333333;" href="carrier_space_chapter_99.html" target="_blank">第九十九章    空船<span style="padding-left:113px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_100.html" target="_blank">第一百章    遮伏</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_100.html" target="_blank">第一百章    遮伏</a>
 <a style="color:#333333;" href="carrier_space_chapter_101.html" target="_blank">第一百零一章    聚变陷阱(上)<span style="padding-left:43px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_102.html" target="_blank">第一百零二章    聚变陷阱(中)</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_102.html" target="_blank">第一百零二章    聚变陷阱(中)</a>
 <a style="color:#333333;" href="carrier_space_chapter_103.html" target="_blank">第一百零三章    聚变陷阱(下)<span style="padding-left:43px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_104.html" target="_blank">第一百零四章    初现端倪</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_104.html" target="_blank">第一百零四章    初现端倪</a>
 <a style="color:#333333;" href="carrier_space_chapter_105.html" target="_blank">第一百零五章    常青藤计划<span style="padding-left:52px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_106.html" target="_blank">第一百零六章    保育员</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_106.html" target="_blank">第一百零六章    保育员</a>
 <a style="color:#333333;" href="carrier_space_chapter_107.html" target="_blank">第一百零七章    报仇<span style="padding-left:96px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_108.html" target="_blank">第一百零八章    撤退</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_108.html" target="_blank">第一百零八章    撤退</a>
 <a style="color:#333333;" href="carrier_space_chapter_109.html" target="_blank">第一百零九章    蘑菇云<span style="padding-left:81px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_110.html" target="_blank">第一百零一十章    夏延山</a><br>
+<a style="color:#333333;" href="carrier_space_chapter_110.html" target="_blank">第一百零一十章    夏延山</a>
 <a style="color:#333333;" href="carrier_space_chapter_111.html" target="_blank">第一百一十一章    末日计划<span style="padding-left:49px;"></a>
-<a style="color:#333333;" href="carrier_space_chapter_112.html" target="_blank">第一百一十二章    小行星Nb897</a><br>
-<a style="color:#333333;" href="carrier_space_chapter_113.html" target="_blank">第一百一十三章    新秩序</a><br>
-
+<a style="color:#333333;" href="carrier_space_chapter_112.html" target="_blank">第一百一十二章    小行星Nb897</a>
+<a style="color:#333333;" href="carrier_space_chapter_113.html" target="_blank">第一百一十三章    新秩序</a>
+`**
 [Go To Top](#top)
