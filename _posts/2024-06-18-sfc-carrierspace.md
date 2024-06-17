@@ -1,5 +1,5 @@
 ---
-title:长篇科幻小说 ｢载体空间 ｣
+title: 长篇科幻小说 ｢载体空间 ｣
 layout: post
 categories: ｢载体空间｣
 tags: 科幻小说
