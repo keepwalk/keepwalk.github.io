@@ -5,7 +5,7 @@ categories: ｢载体空间｣
 tags: 科幻小说
 excerpt: 关于 JavaScript
 ---
-###### ｢载体空间｣ 链接: *点击以下链接阅读相关章节*
+###### *点击以下链接，阅读｢载体空间｣：*
 <a style="color:purple;" href="carrier_space_chapter_0.html" target="_blank"> <b>长篇科幻小说 ｢载体空间｣ 目录&各章链接</b> </a>
 <hr>
 <br>
