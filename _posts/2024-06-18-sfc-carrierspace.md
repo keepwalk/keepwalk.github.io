@@ -5,12 +5,13 @@ categories: ｢载体空间｣
 tags: 科幻小说
 excerpt: 关于 JavaScript 中数组方法的区分
 ---
-- 作者：尚丘（N31WeLt）    
---------------------------
+作者：尚丘（N31WeLt）    
+
 *｢载体空间｣故事梗概：M大学一个名为素茹会的科学组织，秘密从地球招募单程志愿者，前往行星N31执行星际殖民任务，在地球之外，为人类文明建立一个备份。*
 ![image alt <](https://s1.ax1x.com/2020/10/20/0zfPMQ.gif) 
 
-**｢载体空间｣ 楔子 :**  
+
+###### ｢载体空间｣ 楔子 :
 
 两百四十年前,一个炎热的夜晚,  
 詹姆斯·瓦特辗转难眠,  
@@ -38,13 +39,16 @@ excerpt: 关于 JavaScript 中数组方法的区分
 如今,已没有人愿意也没有人知道,如何放缓这头奔命巨兽的步伐｡  
 我们一起闭上眼睛,享受着､忍受着生活,等待着那一天到来｡
 
+
+###### ｢载体空间｣ 插图 :
+
 ![jpg alt <](https://s1.ax1x.com/2020/10/20/0zWqrd.jpg) 
 ![jpg alt <](https://s1.ax1x.com/2020/10/20/0zWLqA.jpg) 
 ![jpg alt >](https://s1.ax1x.com/2020/10/20/0zWvIP.jpg)
-
-
 ![image alt <](https://s1.ax1x.com/2020/09/23/wXIMuD.gif) 
-#### 小说主要人物 :
+
+
+###### 小说主要人物 :
 
 _吴佑問 :_ 素茹会创始人,Ks理论发现者  
 _西蒙 :_ 吴佑問科研搭档,素茹会主要捐资人  
@@ -64,7 +68,8 @@ _小靴子 :_ 秦翀的宠物,九命量子猫
 ![image alt <](https://s1.ax1x.com/2020/09/23/wXIm36.gif)
 
 
-#### ｢载体空间｣ 目录 :_〘 点击链接 阅读相关章节 〙_
+##### ｢载体空间｣ 目录 :_〘 点击链接 阅读相关章节 〙_
+
 <a style="color:#777777;" href="carrier_space_chapter_1.html" target="_blank"> <b>第一章    事发春西路</b> <span style="padding-left:86px;">
 <a style="color:#777777;" href="carrier_space_chapter_2.html" target="_blank"> <b>第二章    限期破案</b> </a><br>
 <a style="color:#777777;" href="carrier_space_chapter_3.html" target="_blank"> <b>第三章    大学城</b> <span style="padding-left:114px;">
