@@ -3,7 +3,7 @@ title: 长篇科幻小说 ｢载体空间｣ 目录&各章链接
 layout: post
 categories: ｢载体空间｣
 tags: 科幻小说
-excerpt: 关于 JavaScript
+excerpt: 原创长篇硬科幻，殖民行星N31
 ---
 ###### *点击以下链接，阅读｢载体空间｣：*
 <a style="color:purple;" href="carrier_space_chapter_0.html" target="_blank"> <b>长篇科幻小说 ｢载体空间｣ 目录&各章链接</b> </a>
