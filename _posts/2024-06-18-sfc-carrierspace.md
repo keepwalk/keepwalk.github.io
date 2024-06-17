@@ -5,9 +5,10 @@ categories: ｢载体空间｣
 tags: 科幻小说
 excerpt: 关于 JavaScript 中数组方法的区分
 ---
-作者：尚丘（N31WeLt）    
+作者：尚丘(N31WeLt)    
 <br>
-*｢载体空间｣故事梗概：海外华裔学生学者在M大学创建了一个名为素茹会的科学组织，秘密招募单程志愿者，执行前往行星N31的星际殖民任务，在地球之外为人类文明建立一个备份。*
+__｢载体空间｣故事梗概：__ *海外华裔学生学者在M大学创建了一个名为素茹会的科学组织，秘密招募单程志愿者，执行前往行星N31的星际殖民任务，在地球之外为人类文明建立一个备份。*
+<br>
 <br>
 ![image alt <](https://s1.ax1x.com/2020/10/20/0zfPMQ.gif) 
 <br>
@@ -77,7 +78,7 @@ ___小靴子 :___ 秦翀的宠物,九命量子猫
 <br>
 <br>
 <br>
-##### ｢载体空间｣ 目录 链接: *〘 点击链接 阅读相关章节 〙*
+##### 长篇科幻小说 ｢载体空间｣ 目录 链接: *〘 点击链接 阅读相关章节 〙*
 
 <a style="color:#444444;" href="carrier_space_chapter_1.html" target="_blank"> <b>第一章    事发春西路</b> <span style="padding-left:86px;">
 <a style="color:#444444;" href="carrier_space_chapter_2.html" target="_blank"> <b>第二章    限期破案</b> </a><br>
