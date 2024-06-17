@@ -3,7 +3,7 @@ title: 长篇科幻小说 ｢载体空间 ｣
 layout: post
 categories: ｢载体空间｣
 tags: 科幻小说
-excerpt: 关于 JavaScript 中数组方法的区分
+excerpt: 原创长篇硬科幻，殖民行星N31
 ---
 作者：尚丘(N31WeLt)    
 <br>
