@@ -1,0 +1,364 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>科幻&nbsp;·『载体空间』·&nbsp;32</title>
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+<style type="text/css">
+
+* html a:hover { background: transparent; }
+body { color: #181818; }
+pre { border: 0; margin: 0; padding: 0; }
+td { padding: 0; }
+table { border: 0; margin: 0; padding: 0; border-collapse: collapse; empty-cells: show; }
+span { display: inline-block; border: 0; margin: 0; }
+td.code_line div { width: 100%; padding-left: 50px; }
+span.code_gutter { vertical-align: top; }
+span.qts_spk { color:#212248;
+font-weight: normal;
+font-family: Monospace, 'Monospace', 'Noto Sans CJK SC', 'Source Han Sans SC', 'Source Han Sans CN', 'Microsoft YaHei', Helvetica,  'Courier', 'STHeiti', 'STXihei', 'Heiti SC', Arial, sans-serif ;
+font-size:14pt;
+}
+span.qts_lnk { color:#693153;
+font-weight: bold;
+font-variant: small-caps;
+font-style: underline;
+font-family: Monospace, 'Monospace', 'Noto Sans CJK SC', 'Source Han Sans SC', 'Source Han Sans CN', 'Microsoft YaHei', Helvetica,  'Courier', 'STHeiti', 'STXihei', 'Heiti SC', Arial, sans-serif ;
+font-size:12pt;
+text-decoration: underline ;
+}
+.code_page {
+background-color: #a59f92;
+font-family: Monospace, 'Monospace', 'Noto Sans CJK SC', 'Source Han Sans SC', 'Source Han Sans CN', 'Microsoft YaHei', Helvetica,  'Courier', 'STHeiti', 'STXihei', 'Heiti SC', Arial, sans-serif ;
+font-size: 14pt;
+tab-size: 4;
+line-height:180%;
+text-align:justify;
+text-justify:inter-ideograph;
+font-weight:normal;
+padding-left: 0px;
+text-shadow: 1px 1px 15px #888888
+}
+.simple_code_page { background-color: white; color: black }
+.code_gutter { display: table-cell; background-color: #a59f92;}
+.bold { font-weight: bold; }
+.italic { font-style: italic; }
+.normal { font-style: normal; }
+.glow { text-shadow: 0 0 3px currentColor; }
+.underline { text-decoration: underline; }
+
+.wrap {
+white-space: -moz-pre-wrap;
+white-space: -hp-pre-wrap;
+white-space: -o-pre-wrap;
+white-space: -pre-wrap;
+white-space: pre-wrap;
+word-wrap: break-word;
+}
+.wrap span { display: inline; }
+
+div#toolbarhide {
+position: fixed;
+top: 0px;
+right: 0px;
+padding-top: 5px;
+padding-right: 10px;
+}
+div#toolbar {
+visibility: hidden;
+text-align: center;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+opacity: 0;
+-webkit-transform: translateZ(0);
+-webkit-font-smoothing: antialiased;
+-webkit-transition: all .25s ease-in;
+-moz-transition: all .25s ease-in;
+-ms-transition: all .25s ease-in;
+-o-transition: all .25s ease-in;
+transition: all .25s ease-in;
+background-color:black;
+color: white;
+}
+div#toolbarhide:hover div#toolbar {
+visibility: visible;
+opacity: .8;
+-webkit-transition: all .25s ease-out;
+-moz-transition: all .25s ease-out;
+-ms-transition: all .25s ease-out;
+-o-transition: all .25s ease-out;
+transition: all .25s ease-out;
+}
+div#toolbar img {
+display: inline-block;
+vertical-align: middle;
+border: 0;
+cursor: pointer;
+height: 16px;
+width: 16px;
+padding: 5px;
+}
+
+#tooltip {
+border-radius: 5px 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+-webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+-moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+white-space: -moz-pre-wrap;
+white-space: -hp-pre-wrap;
+white-space: -o-pre-wrap;
+white-space: -pre-wrap;
+white-space: pre-wrap;
+white-space: pre-line;
+word-wrap: break-word;
+position:absolute; display:block;
+color: black;
+padding: 0.8em 1em;
+background: #FFFFE0; border: solid black;
+font-family: Calibri, Tahoma, Geneva, sans-serif;
+font-size: 10pt;
+font-weight: bold;
+}
+
+a.annotation {
+color: #181818;
+outline: none;
+text-decoration: underline;
+}
+
+span.annotation{ display: inline; }
+
+.tooltip_hotspot { cursor:pointer; }
+
+div#comment_list {
+visibility: hidden;
+display: none;
+margin: auto auto;
+text-align: center;
+position: fixed;
+z-index: 99;
+left:0px;
+top: 0px;
+}
+div#comment_wrapper {
+max-height: 200px;
+overflow: auto;
+border: solid black;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+-webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+-moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+}
+table#comment_table {
+border: thin solid; border-collapse: collapse;
+color: #000000; background-color: #FFFFE0; margin: auto auto;
+}
+div.table_footer { text-align:right; font-size: 8pt; font-weight: bold;}
+a.table_close { color: black; float: right; }
+a.table_close:link { text-decoration: none; }
+a.table_close:active { text-decoration: none; }
+a.table_close:visited { text-decoration: none; }
+a.table_close:hover { text-decoration: none; }
+table#comment_table th, table#comment_table td { border: thin solid; padding: 5px; }
+td.annotation_link { width: 60px; text-align: right; padding-right: 20px; }
+.annotation_comment { width: 500px; }
+div.annotation_comment {
+float: left;
+text-align: left;
+white-space: -moz-pre-wrap;
+white-space: -hp-pre-wrap;
+white-space: -o-pre-wrap;
+white-space: -pre-wrap;
+white-space: pre-wrap;
+word-wrap: break-word;
+}
+</style>
+
+<script type="text/javascript">
+function isUndef(obj) {
+return obj === void 0;
+}
+
+function isNull(obj) {
+return obj === null;
+}
+</script>
+
+<noscript>
+<iframe src="*.htm"></iframe>
+</noscript>
+
+</head>
+<br><H40 style="font-weight:normal; font-size: 15pt; font-style: normal; padding-left:105px;" >（⚵）科幻小说『载体空间』<span style="color: #181818; padding-left:132px;" ><a style="text-decoration: none; color:#693153;font-size: 12pt; padding-left:25px; padding-right:25px;" href="carrier_space_chapter_31.html" target="_self">上一章</a><a style="text-decoration: none; color:#693153; padding-left:25px; padding-right:25px; font-size: 12pt;" href="carrier_space_chapter_0.html" target="_blank">返回目录</a><a style="text-decoration: none; color:#693153; padding-left:25px; padding-right:25px; font-size: 12pt;" href="carrier_space_chapter_33.html" target="_self">下一章 </a> </span>
+
+</H40><a style="outline:none;font-size:15pt;font-weight:normal;text-decoration:none;color:#693153;" href="#" onclick="toggle_gutter();">⨊</a>
+<hr width=100% size=2 color=#6a505c style="border:3 dashed #6a505c">
+<body class="code_page code_text"><pre class="code_page"><table cellspacing="0" cellpadding="0" class="code_page"><tr><td><table cellspacing="0" cellpadding="0" class="code_page"><tr><td valign="top" id="L_0_1" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1"><span class="normal real_text" style="background-color: #a59f92; color: #181818;"> </span></div></td></tr><tr><td valign="top" id="L_0_1852" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1852&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1852"><span class="normal real_text" style="background-color: #a59f92; color: #181818;">:::&#31532;&#19977;&#21313;&#20108;&#31456;&nbsp;&nbsp;&nbsp; &#21476;&#23721;&#27934;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1853" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1853&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1853"><span class="normal empty_text" style="background-color: #a59f92; color: #181818;">&nbsp;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1854" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1854&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1854"><span class="normal real_text" style="background-color: #a59f92; color: #181818;">&#65279;&#27721;&#23068;&#21644;&#31206;&#32704;&#35745;&#31639;&#20986;&#26408;&#34562;&#21495;&#30528;&#38470;x17&#30340;&#20855;&#20307;&#21442;&#25968;&#65292;&#28982;&#21518;&#21448;&#35268;&#21010;&#20986;&#30528;&#38470;&#25506;&#27979;&#30340;&#20219;&#21153;&#32454;&#33410;&#65292;&#36828;&#31243;&#26356;&#26032;&#26408;&#34562;&#21495;&#30528;&#38470;&#25511;&#21046;&#31243;&#24207;&#65292;&#24537;&#20102;&#25972;&#25972;&#19968;&#21608;&#65292;&#20934;&#22791;&#24037;&#20316;&#23601;&#32490;&#12290;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1855" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1855&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1855"><span class="normal real_text" style="background-color: #a59f92; color: #181818;">&#30331;&#38470;N31&#30340;&#31532;&#19977;&#30334;&#20116;&#21313;&#19977;&#26085;&#65292;&#21507;&#36807;&#26089;&#39277;&#65292;Ken&#12289;&#27721;&#23068;&#12289;&#31206;&#32704;&#19977;&#20154;&#22260;&#22352;&#22312;&#25511;&#21046;&#21488;&#21069;&#65292;&#20026;&#26408;&#34562;&#21495;&#30528;&#38470;x17&#20316;&#26368;&#21518;&#20934;&#22791;&#12290;&#39532;&#19969;&#20687;&#24448;&#24120;&#19968;&#26679;&#65292;&#21435;&#31181;&#26893;&#22823;&#26842;&#24033;&#26597;&#20892;&#20316;&#29289;&#29983;&#38271;&#24773;&#20917;&#65292;&#20986;&#38376;&#21069;&#23545;&#19977;&#20301;&#21516;&#20276;&#35828;&#36947;&#65306;“<span class="qts_spk">&#35201;&#26159;&#30495;&#21457;&#29616;&#20102;&#22806;&#26143;&#20154;&#65292;&#35760;&#24471;&#21483;&#25105;&#12290;</span>”</span>
+</div></td></tr><tr><td valign="top" id="L_0_1856" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1856&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1856"><span class="normal real_text" style="background-color: #a59f92; color: #181818;">“<span class="qts_spk">&#30693;&#36947;&#30693;&#36947;&#65292;&#24536;&#19981;&#20102;&#20320;&#12290;</span>”&#27721;&#23068;&#12290;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1857" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1857&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1857"><span class="normal empty_text" style="background-color: #a59f92; color: #181818;">&nbsp;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1858" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1858&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1858"><span class="normal real_text" style="background-color: #a59f92; color: #181818;">“<span class="qts_spk">N31&#21644;x17&#20043;&#38388;&#26377;&#36890;&#35759;&#24310;&#36831;&#65292;&#30528;&#38470;&#21518;&#27599;&#20010;&#36965;&#25511;&#21160;&#20316;&#37117;&#35201;&#31561;&#25910;&#21040;&#21453;&#39304;&#30830;&#35748;&#21518;&#65292;&#20877;&#25191;&#34892;&#19979;&#19968;&#27493;&#25805;&#20316;&#12290;</span>”Ken&#22065;&#21648;&#36947;&#65292;“<span class="qts_spk">&#25105;&#20204;&#24320;&#22987;&#21543;&#65281;</span>”</span>
+</div></td></tr><tr><td valign="top" id="L_0_1859" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1859&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1859"><span class="normal real_text" style="background-color: #a59f92; color: #181818;">&#27721;&#23068;&#20174;&#25511;&#21046;&#21488;&#21457;&#20986;&#30528;&#38470;&#25351;&#20196;&#65292;&#30005;&#27874;&#39134;&#39536;&#20102;&#19968;&#30334;&#20061;&#21313;&#31186;&#25269;&#36798;&#26408;&#34562;&#21495;&#65292;&#20282;&#26381;&#28779;&#31661;&#21551;&#21160;&#65292;&#26408;&#34562;&#21495;&#38477;&#20302;&#39640;&#24230;&#65292;&#21521;x17&#34920;&#38754;&#33853;&#21435;&#12290;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1860" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1860&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1860"><span class="normal real_text" style="background-color: #a59f92; color: #181818;">&#38543;&#30528;&#25506;&#27979;&#22120;&#39640;&#24230;&#19981;&#26029;&#38477;&#20302;&#65292;&#25511;&#21046;&#21488;&#23631;&#24149;&#19978;&#21047;&#26032;&#30528;&#21508;&#39033;&#20256;&#22238;&#30340;&#25968;&#25454;&#12290;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1861" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1861&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1861"><span class="normal real_text" style="background-color: #a59f92; color: #181818;">“<span class="qts_spk">&#24590;&#20040;&#22238;&#20107;&#65281;&#19979;&#38477;&#36895;&#24230;&#20559;&#24555;&#65292;&#36229;&#20986;&#39044;&#23450;&#20540;&#30334;&#20998;&#20043;&#21313;&#20108;&#12290;</span>”&#27721;&#23068;&#21457;&#29616;&#38382;&#39064;&#12290;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1862" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1862&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1862"><span class="normal real_text" style="background-color: #a59f92; color: #181818;">&#31206;&#32704;&#65306;“<span class="qts_spk">&#37325;&#21147;&#24322;&#24120;&#65281;&#30528;&#38470;&#21306;&#22495;&#37325;&#21147;&#24322;&#24120;&#65281;&#25506;&#27979;&#22120;&#20943;&#36895;&#21151;&#29575;&#26159;&#25353;x17&#30340;&#24179;&#22343;&#37325;&#21147;&#21152;&#36895;&#24230;&#35745;&#31639;&#20986;&#26469;&#30340;&#12290;</span>”</span>
+</div></td></tr><tr><td valign="top" id="L_0_1863" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1863&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1863"><span class="normal empty_text" style="background-color: #a59f92; color: #181818;">&nbsp;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1864" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1864&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1864"><span class="normal real_text" style="background-color: #a59f92; color: #181818;">“<span class="qts_spk">&#26377;&#34917;&#25937;&#25514;&#26045;&#21527;&#65281;&#65311;</span>”Ken&#12290;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1865" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1865&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1865"><span class="normal real_text" style="background-color: #a59f92; color: #181818;">&#27721;&#23068;&#65306;“<span class="qts_spk">&#25105;&#20204;&#20160;&#20040;&#37117;&#20570;&#19981;&#20102;&#65292;&#36825;&#26159;&#19977;&#20998;&#38047;&#21069;&#30340;&#20256;&#24863;&#22120;&#25968;&#25454;&#65292;&#23601;&#31639;&#29616;&#22312;&#21457;&#20986;&#20462;&#27491;&#25351;&#20196;&#65292;&#31561;&#26408;&#34562;&#21495;&#25509;&#25910;&#21040;&#65292;&#25506;&#27979;&#22120;&#24050;&#25509;&#36817;&#22320;&#38754;&#65292;&#31361;&#28982;&#25913;&#21464;&#21453;&#25512;&#28779;&#31661;&#21151;&#29575;&#65292;&#20250;&#20135;&#29983;&#19981;&#21487;&#39044;&#30693;&#30340;&#32467;&#26524;&#65292;&#29616;&#22312;&#25105;&#20204;&#21482;&#33021;&#23492;&#24076;&#26395;&#20110;&#25506;&#27979;&#22120;&#30340;&#32467;&#26500;&#24378;&#24230;&#65292;&#33021;&#25215;&#21463;&#20303;&#36825;&#30334;&#20998;&#20043;&#21313;&#20108;&#30340;&#36229;&#36895;&#20914;&#20987;&#12290;</span>”</span>
+</div></td></tr><tr><td valign="top" id="L_0_1866" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1866&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1866"><span class="normal real_text" style="background-color: #a59f92; color: #181818;">“<span class="qts_spk">&#36890;&#35759;&#24310;&#36831;&#21487;&#30495;&#35201;&#21629;&#65281;</span>”Ken&#25226;&#24515;&#25552;&#21040;&#20102;&#21971;&#23376;&#30524;&#12290;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1867" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1867&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1867"><span class="normal real_text" style="background-color: #a59f92; color: #181818;">&#19977;&#20154;&#38745;&#38745;&#30447;&#30528;&#23631;&#24149;&#65292;&#31561;&#24453;&#37027;&#28459;&#38271;&#30340;&#20960;&#20998;&#38047;&#30528;&#38470;&#36807;&#31243;&#12290;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1868" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1868&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1868"><span class="normal real_text" style="background-color: #a59f92; color: #181818;">&#32456;&#20110;&#65292;&#22238;&#20256;&#25968;&#25454;&#26174;&#31034;&#26408;&#34562;&#21495;&#39640;&#24230;&#38477;&#20026;&#38646;&#65292;&#23631;&#24149;&#19978;&#30528;&#38470;&#23039;&#24577;&#21578;&#35686;&#28783;&#38378;&#28865;&#36215;&#26469;&#12290;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1869" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1869&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1869"><span class="normal empty_text" style="background-color: #a59f92; color: #181818;">&nbsp;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1870" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1870&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1870"><span class="normal real_text" style="background-color: #a59f92; color: #181818;">“<span class="qts_spk">&#25506;&#27979;&#22120;&#21644;&#22320;&#38754;&#30340;&#25509;&#35302;&#23039;&#24577;&#22909;&#35937;&#19981;&#23545;&#65311;</span>”&#31206;&#32704;&#12290;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1871" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1871&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1871"><span class="normal real_text" style="background-color: #a59f92; color: #181818;">&#19977;&#20154;&#32039;&#24352;&#36215;&#26469;&#65292;&#21448;&#26159;&#20960;&#20998;&#38047;&#28459;&#38271;&#31561;&#24453;&#65292;&#26408;&#34562;&#21495;&#20256;&#22238;&#31532;&#19968;&#25209;&#33258;&#26816;&#22270;&#20687;&#65292;&#22235;&#26681;&#30528;&#38470;&#25903;&#26550;&#20013;&#30340;&#19968;&#26681;&#25240;&#26029;&#20102;&#65292;&#25972;&#20010;&#25506;&#27979;&#22120;&#20542;&#26012;&#21313;&#20116;&#24230;&#65292;&#22909;&#22312;&#39640;&#22686;&#30410;&#22825;&#32447;&#20113;&#21488;&#33258;&#21160;&#37197;&#24179;&#25351;&#21521;N31&#12290;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1872" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1872&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1872"><span class="normal real_text" style="background-color: #a59f92; color: #181818;">“<span class="qts_spk">&#38500;&#20102;&#30528;&#38470;&#25903;&#26550;&#65292;&#30475;&#36215;&#26469;&#27809;&#26377;&#21035;&#30340;&#35774;&#22791;&#25439;&#22351;&#65292;&#21482;&#26159;&#8230;</span>”&#27721;&#23068;&#36793;&#27983;&#35272;&#33258;&#26816;&#28165;&#21333;&#36793;&#35828;&#12290;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1873" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1873&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1873"><span class="normal real_text" style="background-color: #a59f92; color: #181818;">“<span class="qts_spk">&#21482;&#26159;&#20160;&#20040;&#65311;</span>”Ken&#12290;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1874" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1874&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1874"><span class="normal real_text" style="background-color: #a59f92; color: #181818;">“<span class="qts_spk">&#25506;&#27979;&#22120;&#19968;&#20391;&#32728;&#36215;&#65292;&#37322;&#25918;&#30002;&#34411;&#20108;&#21495;&#21208;&#25506;&#36710;&#30340;&#25240;&#21472;&#23548;&#36712;&#65292;&#22815;&#19981;&#21040;&#22320;&#38754;&#12290;</span>”&#27721;&#23068;&#12290;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1875" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1875&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1875"><span class="normal real_text" style="background-color: #a59f92; color: #181818;">“<span class="qts_spk">&#19968;&#21495;&#21208;&#25506;&#36710;&#24773;&#20917;&#22914;&#20309;&#65311;</span>”Ken&#12290;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1876" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1876&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1876"><span class="normal real_text" style="background-color: #a59f92; color: #181818;">“<span class="qts_spk">&#30002;&#34411;&#19968;&#21495;&#27491;&#24120;&#65292;&#25240;&#21472;&#23548;&#36712;&#19981;&#29992;&#23436;&#20840;&#23637;&#24320;&#23601;&#33021;&#35302;&#21040;&#22320;&#38754;&#12290;</span>”&#27721;&#23068;&#12290;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1877" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1877&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1877"><span class="normal empty_text" style="background-color: #a59f92; color: #181818;">&nbsp;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1878" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1878&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1878"><span class="normal real_text" style="background-color: #a59f92; color: #181818;">&#31206;&#32704;&#26681;&#25454;&#26408;&#34562;&#21495;&#20542;&#26012;&#35282;&#24230;&#21644;&#20108;&#21495;&#25506;&#27979;&#36710;&#25240;&#21472;&#23548;&#36712;&#38271;&#24230;&#65292;&#31639;&#20986;&#23548;&#36712;&#26411;&#31471;&#19982;&#22320;&#38754;&#20043;&#38388;&#30340;&#36317;&#31163;&#65306;“<span class="qts_spk">&#20197;&#30446;&#21069;&#30340;&#24773;&#20917;&#65292;&#37322;&#25918;&#30002;&#34411;&#20108;&#21495;&#25506;&#27979;&#36710;&#65292;&#24456;&#21487;&#33021;&#23548;&#33268;&#20854;&#20542;&#35206;&#12290;</span>”</span>
+</div></td></tr><tr><td valign="top" id="L_0_1879" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1879&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1879"><span class="normal real_text" style="background-color: #a59f92; color: #181818;">“<span class="qts_spk">&#21769;&#65292;&#24597;&#20160;&#20040;&#26469;&#20160;&#20040;&#65292;&#20108;&#21495;&#36710;&#20986;&#20102;&#38382;&#39064;&#65292;&#21518;&#38754;&#24590;&#20040;&#25506;&#30719;&#65281;</span>”Ken&#12290;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1880" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1880&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1880"><span class="normal real_text" style="background-color: #a59f92; color: #181818;">&#27721;&#23068;&#25226;&#26408;&#34562;&#21495;&#30340;&#23039;&#24577;&#25968;&#25454;&#12289;&#22270;&#20687;&#27719;&#24635;&#21040;&#26700;&#38754;&#65292;&#19977;&#20154;&#21830;&#35752;&#22914;&#20309;&#25405;&#25937;&#30002;&#34411;&#20108;&#21495;&#65292;&#20105;&#35770;&#21322;&#22825;&#65292;&#32467;&#35770;&#26159;&#65306;&#26080;&#35299;&#12290;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1881" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1881&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1881"><span class="normal real_text" style="background-color: #a59f92; color: #181818;">Ken&#20915;&#23450;&#20808;&#19981;&#37322;&#25918;&#30002;&#34411;&#20108;&#21495;&#65292;&#21482;&#27966;&#20986;&#19968;&#21495;&#25506;&#27979;&#36710;&#21435;&#19977;&#35282;&#24418;&#21306;&#22495;&#65292;&#30475;&#30475;&#37027;&#37324;&#31350;&#31455;&#26377;&#20123;&#20160;&#20040;&#12290;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1882" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1882&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1882"><span class="normal empty_text" style="background-color: #a59f92; color: #181818;">&nbsp;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1883" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1883&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1883"><span class="normal real_text" style="background-color: #a59f92; color: #181818;">&#30002;&#34411;&#19968;&#21495;&#34987;&#36828;&#31243;&#21551;&#21160;&#65292;&#25506;&#27979;&#36710;&#27839;&#30528;&#23548;&#36712;&#39034;&#21033;&#33073;&#31163;&#26408;&#34562;&#21495;&#27597;&#33337;&#65292;&#21521;&#19981;&#36828;&#22788;&#30340;&#19977;&#35282;&#24418;&#21306;&#22495;&#39542;&#21435;&#12290;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1884" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1884&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1884"><span class="normal real_text" style="background-color: #a59f92; color: #181818;"><span class="qts_lnk"> <img src="https://s1.ax1x.com/2020/10/04/0Je3tg.jpg" style="width:694px;height:390px;" alt="〔⦂⏿〕" ></span></span>
+</div></td></tr><tr><td valign="top" id="L_0_1885" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1885&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1885"><span class="normal empty_text" style="background-color: #a59f92; color: #181818;">&nbsp;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1886" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1886&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1886"><span class="normal real_text" style="background-color: #a59f92; color: #181818;">&#24403;&#30002;&#34411;&#19968;&#21495;&#25509;&#36817;&#19977;&#35282;&#24418;&#24213;&#36793;&#26102;&#65292;&#21457;&#29616;&#36825;&#26159;&#19968;&#26465;&#24418;&#29366;&#19981;&#22826;&#35268;&#21017;&#30340;&#27807;&#22737;&#65292;&#38271;&#19977;&#30334;&#20313;&#31859;&#65292;&#19968;&#31471;&#28145;&#65292;&#21478;&#19968;&#31471;&#27973;&#65292;&#20687;&#25381;&#27627;&#27900;&#27922;&#20986;&#30340;&#31508;&#35302;&#65292;“<span class="qts_spk">&#31508;&#35302;</span>”&#36215;&#22987;&#30340;&#22320;&#26041;&#28145;&#24230;&#36275;&#26377;&#20004;&#31859;&#65292;“<span class="qts_spk">&#31508;&#35302;</span>”&#26411;&#31471;&#21017;&#20960;&#20046;&#21644;&#22320;&#38754;&#40784;&#24179;&#65292;&#25506;&#27979;&#36710;&#32469;&#36947;&#36739;&#27973;&#19968;&#20391;&#65292;&#36827;&#20837;&#19977;&#35282;&#24418;&#21306;&#22495;&#12290;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1887" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1887&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1887"><span class="normal empty_text" style="background-color: #a59f92; color: #181818;">&nbsp;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1888" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1888&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1888"><span class="normal real_text" style="background-color: #a59f92; color: #181818;">&#19977;&#35282;&#24418;&#21306;&#22495;&#20869;&#37096;&#30340;&#22320;&#38754;&#24322;&#24120;&#24179;&#25972;&#65292;&#20687;&#26159;&#34987;&#20154;&#24037;&#20462;&#25972;&#36807;&#65292;&#38500;&#20102;&#19968;&#20123;&#24494;&#22411;&#38504;&#30707;&#30862;&#29255;&#25955;&#24067;&#20854;&#20013;&#65292;&#24179;&#30340;&#31616;&#30452;&#21487;&#20197;&#24403;&#25805;&#22330;&#65292;&#25506;&#27979;&#36710;&#20960;&#20046;&#19981;&#29992;&#35268;&#21010;&#34892;&#36827;&#36335;&#32447;&#65292;&#24452;&#30452;&#39542;&#21521;&#19977;&#35282;&#24418;&#30340;&#20013;&#24515;&#20301;&#32622;&#12290;&#36884;&#20013;&#65292;&#30002;&#34411;&#19968;&#21495;&#21457;&#29616;&#22320;&#38754;&#26377;&#26465;&#32454;&#24452;&#65292;&#23485;&#24230;&#19981;&#36275;&#19968;&#31859;&#65292;&#30001;&#28145;&#33394;&#26041;&#24418;&#30707;&#22359;&#25340;&#23884;&#32780;&#25104;&#12290;&#27721;&#23068;&#21551;&#21160;&#20840;&#26223;&#25668;&#20687;&#22836;&#65292;&#25506;&#27979;&#36710;&#39030;&#37096;&#24377;&#20986;&#19968;&#39063;&#22278;&#29699;&#65292;&#25302;&#30528;&#32454;&#32447;&#32518;&#21319;&#21521;&#39640;&#22788;&#65292;&#24403;&#32447;&#32518;&#32503;&#30452;&#30340;&#19968;&#30636;&#38388;&#65292;&#22278;&#29699;&#19978;&#30340;&#20845;&#21488;&#30456;&#26426;&#65292;&#20174;&#20108;&#21313;&#31859;&#39640;&#24230;&#25293;&#25668;&#20102;&#20960;&#32452;&#29031;&#29255;&#12290;&#25293;&#25668;&#23436;&#27605;&#65292;&#29699;&#24418;&#25668;&#20687;&#22836;&#22312;x17&#24494;&#24369;&#30340;&#37325;&#21147;&#20316;&#29992;&#19979;&#32531;&#32531;&#19979;&#33853;&#65292;&#25506;&#27979;&#36710;&#20869;&#37096;&#22238;&#25910;&#26426;&#26500;&#32469;&#36215;&#32447;&#32518;&#65292;&#25910;&#22238;&#25668;&#20687;&#22836;&#12290;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1889" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1889&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1889"><span class="normal empty_text" style="background-color: #a59f92; color: #181818;">&nbsp;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1890" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1890&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1890"><span class="normal real_text" style="background-color: #a59f92; color: #181818;">&#20840;&#26223;&#29031;&#29255;&#20256;&#22238;N31&#65292;&#29992;&#30707;&#22359;&#38138;&#25104;&#30340;&#32454;&#24452;&#65292;&#27491;&#26159;&#19977;&#35282;&#24418;&#20869;&#23884;&#22278;&#24418;&#30340;&#19968;&#27573;&#24359;&#65292;&#36825;&#22522;&#26412;&#35777;&#26126;&#65292;&#22320;&#38754;&#19978;&#30340;&#20960;&#20309;&#22270;&#26696;&#32477;&#38750;&#22825;&#28982;&#24418;&#25104;&#12290;&#30002;&#34411;&#19968;&#21495;&#32487;&#32493;&#21521;&#21069;&#65292;&#26469;&#21040;&#22278;&#24418;&#30340;&#20013;&#24515;&#65292;&#20043;&#21069;&#36712;&#36947;&#29031;&#29255;&#19978;&#30340;&#20004;&#20010;&#40657;&#28857;&#65292;&#26159;&#19968;&#23545;&#40657;&#28422;&#28422;&#23721;&#27934;&#65292;&#24038;&#20391;&#27934;&#21475;&#36739;&#23567;&#65292;&#22402;&#30452;&#21521;&#19979;&#65292;&#21491;&#20391;&#27934;&#21475;&#23485;&#38420;&#12289;&#27985;&#22278;&#65292;&#27839;&#27934;&#21475;&#21521;&#37324;&#26377;&#19968;&#26465;&#30707;&#26495;&#22369;&#36947;&#65292;&#28145;&#19981;&#35265;&#24213;&#12290;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1891" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1891&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1891"><span class="normal empty_text" style="background-color: #a59f92; color: #181818;">&nbsp;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1892" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1892&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1892"><span class="normal real_text" style="background-color: #a59f92; color: #181818;">&#27721;&#23068;&#25226;&#30002;&#34411;&#19968;&#21495;&#20572;&#22312;&#21491;&#20391;&#23721;&#27934;&#27934;&#21475;&#65306;“<span class="qts_spk">&#36825;&#37324;&#38754;&#19981;&#20250;&#30495;&#30340;&#26377;&#22806;&#26143;&#20154;&#21543;&#65311;</span>”</span>
+</div></td></tr><tr><td valign="top" id="L_0_1893" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1893&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1893"><span class="normal real_text" style="background-color: #a59f92; color: #181818;">Ken&#65306;“<span class="qts_spk">&#20320;&#30475;&#25506;&#27979;&#36710;&#22312;&#27934;&#21475;&#36711;&#20986;&#30340;&#36710;&#36761;&#65292;&#30495;&#31354;&#29615;&#22659;&#31215;&#32858;&#36825;&#20040;&#21402;&#30340;&#38504;&#30707;&#23576;&#22467;&#65292;&#23569;&#35828;&#20063;&#24471;&#25104;&#30334;&#19978;&#21315;&#19975;&#24180;&#65292;&#35201;&#26159;&#26377;&#27963;&#29289;&#65292;&#20063;&#24456;&#20037;&#24456;&#20037;&#27809;&#20986;&#26469;&#36807;&#65292;&#26089;&#23601;&#39295;&#27515;&#20102;&#12290;</span>”</span>
+</div></td></tr><tr><td valign="top" id="L_0_1894" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1894&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1894"><span class="normal real_text" style="background-color: #a59f92; color: #181818;">“<span class="qts_spk">&#21457;&#29616;&#27963;&#29289;&#25105;&#21435;&#21483;&#39532;&#19969;&#12290;</span>”&#31206;&#32704;&#25554;&#31185;&#25171;&#35816;&#12290;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1895" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1895&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1895"><span class="normal empty_text" style="background-color: #a59f92; color: #181818;">&nbsp;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1896" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1896&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1896"><span class="normal real_text" style="background-color: #a59f92; color: #181818;">&#30002;&#34411;&#19968;&#21495;&#20174;&#23614;&#37096;&#25918;&#19979;&#19968;&#39063;&#20449;&#21495;&#20013;&#32487;&#22120;&#65292;&#25670;&#22312;&#23721;&#27934;&#20837;&#21475;&#27491;&#20013;&#65292;&#25506;&#27979;&#36710;&#25171;&#24320;&#36710;&#28783;&#65292;&#27839;&#30707;&#26495;&#22369;&#36947;&#39542;&#36827;&#40657;&#28422;&#28422;&#30340;&#22320;&#19979;&#19990;&#30028;&#12290;&#30002;&#34411;&#19968;&#21495;&#34892;&#39542;&#22312;&#28145;&#19981;&#35265;&#24213;&#30340;&#27934;&#31348;&#37324;&#65292;&#36710;&#28783;&#37027;&#28857;&#20809;&#20142;&#26174;&#24471;&#26080;&#27604;&#32696;&#24369;&#65292;&#25506;&#27979;&#36710;&#20687;&#21482;&#33828;&#28779;&#34411;&#65292;&#32531;&#32531;&#21069;&#34892;&#12290;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1897" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1897&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1897"><span class="normal empty_text" style="background-color: #a59f92; color: #181818;">&nbsp;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1898" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1898&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1898"><span class="normal empty_text" style="background-color: #a59f92; color: #181818;">&nbsp;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1899" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1899&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1899"><span class="normal empty_text" style="background-color: #a59f92; color: #181818;">&nbsp;</span>
+</div></td></tr><tr><td valign="top" id="L_0_1900" class="code_text code_gutter" style="background: #767572"><span style="color: #aaa18d;">&nbsp;1900&nbsp;</span></td><td valign="top" class="code_text code_line" style="background-color: #a59f92;"><div id="C_0_1900"><span class="normal empty_text" style="background-color: #a59f92; color: #181818;">&nbsp;</span></div></td></tr></table></td></tr></table></pre><div id="toolbarhide"><div id="toolbar"></div></div>
+
+<script type="text/javascript">
+var page_line_info = {
+wrap: false,
+ranges: null,
+wrap_size: null,
+tables: null,
+header: null,
+gutter: false,
+table_mode: true
+};
+
+function wrap_code() {
+var width = 0,
+mode = null,
+start, end, i, j, idx, el;
+
+if (page_line_info.header) {
+el = document.getElementById("file_info");
+el.style.width = page_line_info.wrap_size + "px";
+el.className = "wrap";
+}
+for (i = 1; i <= page_line_info.tables; i++) {
+idx = i - 1;
+start = page_line_info.ranges[idx][0];
+end = page_line_info.ranges[idx][1];
+for(j = start; j < end; j++) {
+if (isNull(mode)) {
+mode = true;
+if (page_line_info.gutter) {
+width = document.getElementById("L_" + idx + "_" + j).offsetWidth;
+}
+}
+el = document.getElementById("C_" + idx + "_" + j);
+el.style.width = (page_line_info.wrap_size - width) + "px";
+el.className = page_line_info.table_mode ? "wrap" : "wrap code_line";
+}
+}
+}
+
+function toggle_gutter() {
+var default_mode = page_line_info.table_mode ? 'table-cell' : 'inline-block',
+mode = null,
+i, j, rows, r, tbls, cells;
+items = document.querySelectorAll('.code_gutter');
+/* alert(document.getElementsByClassName("code_page").style("textShadow"));*/
+for (i = 0; i < items.length; ++i) {
+if (isNull(mode)) {
+if (page_line_info.gutter) {
+mode = 'contents';
+page_line_info.gutter = false;
+page_line_info.wrap_size = 712;
+} else {
+mode = 'table-cell';
+page_line_info.gutter = true;
+page_line_info.wrap_size = 780;
+}
+}
+items[i].style.display = mode;
+}
+if (page_line_info.wrap && !isNull(mode)) {
+setTimeout(function() {wrap_code();}, 500);
+}
+}
+
+function unwrap_code() {
+var i, j, idx, start, end, el;
+
+if (page_line_info.header) {
+document.getElementById("file_info").style.width = "100%";
+}
+for (i = 1; i <= page_line_info.tables; i++) {
+idx = i - 1;
+start = page_line_info.ranges[idx][0];
+end = page_line_info.ranges[idx][1];
+for(j = start; j < end; j++) {
+el = document.getElementById("C_" + idx + "_" + j);
+el.style.width = "100%";
+el.className = "";
+}
+}
+}
+
+function toggle_wrapping() {
+if (page_line_info.wrap) {
+page_line_info.wrap = false;
+unwrap_code();
+} else {
+page_line_info.wrap = true;
+wrap_code();
+}
+}
+
+page_line_info.wrap       = false;
+page_line_info.wrap_size  = 780;
+page_line_info.tables     = 1;
+page_line_info.header     = false;
+page_line_info.gutter     = true;
+page_line_info.table_mode = true;
+toggle_gutter();
+page_line_info.ranges     = [[1852,999999]];
+</script>
+<script type="text/javascript">
+toggle_wrapping();
+</script>
+</body>
+</body>
+<br>
+<hr align="center" width=100% size=2 color=#6a505c style="border:3 dashed #6a505c; ">
+
+<H40 style="font-weight:normal; font-size: 15pt; font-style: normal; padding-left:105px;" >（⚵）科幻小说『载体空间』<span style="color: #181818; padding-left:132px;" ><a style="text-decoration: none; color:#693153;font-size: 12pt; padding-left:25px; padding-right:25px;" href="carrier_space_chapter_31.html" target="_self">上一章</a><a style="text-decoration: none; color:#693153; padding-left:25px; padding-right:25px; font-size: 12pt;" href="carrier_space_chapter_0.html" target="_blank">返回目录</a><a style="text-decoration: none; color:#693153; padding-left:25px; padding-right:25px; font-size: 12pt;" href="carrier_space_chapter_33.html" target="_self">下一章 </a> </span>
+
+</H40><a style="outline:none;font-size:15pt;font-weight:normal;text-decoration:none;color:#693153;" href="#" onclick="toggle_gutter();">⨊</a>
+<br><br>
+</html>
