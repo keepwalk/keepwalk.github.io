@@ -78,5 +78,6 @@ __小靴子 :__  *秦翀的宠物,九命量子猫*
 <hr>
 ###### *点击以下链接，阅读｢载体空间｣：*
 <a style="color:purple;" href="carrier_space_chapter_0.html" target="_blank"> <b>长篇科幻小说 ｢载体空间｣ 目录&各章链接</b> </a>
-<br>
+```
 [Go To Top](#top)
+```
