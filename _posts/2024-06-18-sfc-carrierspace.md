@@ -72,7 +72,9 @@ _小靴子 :_ 秦翀的宠物,九命量子猫
 
 #### ｢载体空间｣ 目录 :_〘 点击链接 阅读相关章节 〙_
 
-[第一章 事发春西路](carrier_space_chapter_1.html) [第二章 限期破案](carrier_space_chapter_2.html)  
+<p style="color:black">Make this text blue.</p>
+
+<p style="color:black">[第一章 事发春西路](carrier_space_chapter_1.html) [第二章 限期破案](carrier_space_chapter_2.html)  </p>
 [第三章 大学城](carrier_space_chapter_3.html) [第四章 三号探测器](carrier_space_chapter_4.html)  
 [第五章 缓存文件](carrier_space_chapter_5.html) [第六章 素茹会](carrier_space_chapter_6.html)  
 [第七章 乙宸计划](carrier_space_chapter_7.html) [第八章 科学讲座](carrier_space_chapter_8.html)  
