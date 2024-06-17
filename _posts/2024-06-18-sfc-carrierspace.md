@@ -7,8 +7,8 @@ excerpt: 关于 JavaScript 中数组方法的区分
 ---
 科幻小说｢载体空间｣ - 作者：尚丘（N31WeLt）    
 --------------------------
-**
-｢载体空间｣ 楔子 :  
+
+**｢载体空间｣ 楔子 :**  
   
 两百四十年前,一个炎热的夜晚,  
 詹姆斯·瓦特辗转难眠,  
@@ -35,10 +35,10 @@ excerpt: 关于 JavaScript 中数组方法的区分
 后蒸气时代的人们遍尝其带来的甜头｡  
 如今,已没有人愿意也没有人知道,如何放缓这头奔命巨兽的步伐｡  
 我们一起闭上眼睛,享受着､忍受着生活,等待着那一天到来｡
-**
-![jpg](https://s1.ax1x.com/2020/10/20/0zWqrd.jpg #left) 
-![jpg](https://s1.ax1x.com/2020/10/20/0zWLqA.jpg #left) 
-![jpg](https://s1.ax1x.com/2020/10/20/0zWvIP.jpg #left)
+
+![jpg](https://s1.ax1x.com/2020/10/20/0zWqrd.jpg#left) 
+![jpg alt <](https://s1.ax1x.com/2020/10/20/0zWLqA.jpg) 
+![jpg](https://s1.ax1x.com/2020/10/20/0zWvIP.jpg)
 
 
 ｢载体空间｣故事梗概：M大学一个名为素茹会的科学组织，秘密从地球招募单程志愿者，前往行星N31执行星际殖民任务，在地球之外，为人类文明建立一个备份。
@@ -59,9 +59,9 @@ _伊琳 :_ N31殖民地荣归派女首领
 _小靴子 :_ 秦翀的宠物,九命量子猫  
 **
   
-![gif](https://s1.ax1x.com/2020/09/23/wXIMuD.gif #left) 
-![gif](https://s1.ax1x.com/2020/10/20/0zfPMQ.gif #left) 
-![gif](https://s1.ax1x.com/2020/10/04/0JAFR1.gif #left) 
+![gif](https://s1.ax1x.com/2020/09/23/wXIMuD.gif#left) 
+![gif alt <](https://s1.ax1x.com/2020/10/20/0zfPMQ.gif) 
+![gif](https://s1.ax1x.com/2020/10/04/0JAFR1.gif#left) 
 ![gif](https://s1.ax1x.com/2020/10/20/0zf9xg.gif #left) 
 ![gif](https://s1.ax1x.com/2020/10/20/0zfirj.gif #left) 
 ![gif](https://s1.ax1x.com/2020/10/20/0zI6BQ.gif #left) 
